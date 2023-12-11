@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: grey;
+    padding: 16px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header h1 {
+    color: #fff;
+}
+
+body {
+    background-color: rgb(229, 226, 226);
+}
+
+body h2, h3{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+
+input {
+    height: 50px;
+    width: 800px;
+    background-color: #feecec;
+    font-size: 30px;
+    color: black;
+}
+
+#botao-adicionar {
+    height: 50px;
+    background-color: rgb(25, 167, 25);
+    cursor: pointer;
+    width: 100px;
+}
+
+#botao-cancelar {
+    height: 50px;
+    background-color: red;
+    cursor: pointer;
+    width: 100px;
+}
+
+.layout-infos {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+ul  {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 90px;
+}
