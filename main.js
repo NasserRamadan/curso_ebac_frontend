@@ -4,16 +4,16 @@ $(document).ready(function(){
         e.preventDefault();
 
         const novaTarefa = $('#nova-tarefa').val();
-        const novoItem =$('<li></li>');
-
-        $(`${novaTarefa}`).appendTo(novoItem);
-        $(novoItem).appendTo('ul');
+        const novoItem =$('<li></li>').text(novaTarefa);
+        $('ul').append(novoItem);
         $('#nova-tarefa').val('')
 
-    })
+    });
 
-        $(`<div class="layout-infos" />
-            <a href="${novaTarefa}"></a>
-        </div>`)
+    const novoLink = $('<div class="layout-infos"><a href="#"></a></div>');
+    $('body').append(novoLink);
+});
 
+$('ul').click(function() {
+    $(this).addClass('concluido');
 });
