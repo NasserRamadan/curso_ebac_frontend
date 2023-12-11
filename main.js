@@ -6,15 +6,12 @@ $(document).ready(function(){
         const novaTarefa = $('#nova-tarefa').val();
         const novoItem =$('<li></li>').text(novaTarefa);
 
-
         $(`${novaTarefa}`).appendTo(novoItem);
         $(novoItem).appendTo('ul');
         $('#nova-tarefa').val('')
 
-
         $(`<div class="tasks-list" />
             <a href="${novaTarefa}"></a>
-        </div>`)
+        </div>`)});
 
-    });
 });
