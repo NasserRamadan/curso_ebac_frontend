@@ -10,8 +10,10 @@ $(document).ready(function(){
         $(novoItem).appendTo('ul');
         $('#nova-tarefa').val('')
 
-        $(`<div class="tasks-list" />
+    })
+
+        $(`<div class="layout-infos" />
             <a href="${novaTarefa}"></a>
-        </div>`)});
+        </div>`)
 
 });
